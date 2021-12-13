@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Timestamp Microservice | freeCodeCamp.org</title>
+      <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+    <h1>Timestamp Microservice</h1>
+    <span id="clock"></span>
+    <hr />
+    <div class="container">
+      <h2>How to Use?</h2>
+      <ul>
+        <li>Enter endpoint <code>/api/DATE</code> to get required timestamp in JSON form.</li>  
+        <li>Enter endpoint <code>/api/TIME</code> to get required timestamp in JSON format.</li>
+        <li>Enter endpoint <code>/timestamp</code> to timestamp the current moment in JSON format</li>
+      </ul>
+      <h3>Example Usage:</h3>
+      <ul>
+        <li><a href="api/2015-12-25">[project url]/api/2015-12-25</a></li>
+        <li><a href="api/1451001600000">[project url]/api/1451001600000</a></li>
+        <li><a href="timestamp">[project url]/timestamp</a></li>
+      </ul>
+
+      <h3>Example Output:</h3>
+      <p>
+        <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+      </p>
+    </div>
+    <div class="footer">
+      <p>
+        Template By <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>
+      </p>
+    </div>
+  </body>
+  <script>
+    (function () {
+
+      var clockElement = document.getElementById( "clock" );
+
+      function updateClock ( clock ) {
+        clock.innerHTML = new Date().toLocaleTimeString();
+      }
+
+      setInterval(function () {
+          updateClock( clockElement );
+      }, 1000);
+
+      }());
+  </script>
+</html>

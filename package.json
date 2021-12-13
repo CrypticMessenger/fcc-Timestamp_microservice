@@ -1,0 +1,14 @@
+{
+	"name": "fcc-timestamp_microservice",
+	"keywords": ["freeCodeCamp","API","Project","Dates","Time"],
+	"version": "0.1.0",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.3",
+		"express": "^4.17.1"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	}
+}
