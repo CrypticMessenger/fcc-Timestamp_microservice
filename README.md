@@ -8,5 +8,5 @@
   <img src="asset/date.png">
 - Enter endpoint ```/api/TIME``` to get required timestamp in JSON format.
   <img src="asset/time.png">
-- Enter endpoint ```/timestamp``` to timestamp the current moment in JSON format
-  ![timestamp](https://github.com/CrypticMessenger/fcc-Timestamp_microservice/blob/main/asset/timestamp.png)
+- Enter endpoint ```/timestamp``` to timestamp the current moment in JSON format <br>
+  <img src="https://raw.githubusercontent.com/CrypticMessenger/fcc-Timestamp_microservice/main/asset/timestamp.PNG">
