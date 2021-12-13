@@ -1,6 +1,6 @@
 # Timestamp Microservice
 ## How To Run?
-- clone this repo using `git clone <git-repo-url>`
+- clone this repo using `git clone https://github.com/CrypticMessenger/fcc-Timestamp_microservice.git`
 - install all required node modules, mentioned in `package.json`, using `npm install <package name>`
 - run `node server.js` in VS Code terminal<br>
   <img src="asset/nodejsserver.png">
